@@ -111,6 +111,18 @@ export default {
               authority: ['admin'],
             },
             {
+              name: '高级表单',
+              icon: 'smile',
+              path: '/formadvancedform',
+              component: './FormAdvancedForm',
+            },
+            {
+              name: '流程编辑器',
+              icon: 'smile',
+              path: '/editorflow',
+              component: './EditorFlow',
+            },
+            {
               component: './404',
             },
           ],
